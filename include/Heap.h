@@ -1,3 +1,6 @@
+#ifndef HEAP_H 
+#define HEAP_H
+
 #include "Node.h"
 class Heap
 {
@@ -18,3 +21,5 @@ private:
     int percolateup(int ii);
     int percolatedown(int ii);
 };
+
+#endif
