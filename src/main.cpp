@@ -1,4 +1,4 @@
-#include "../include/Heap.h"
+#include "../include/Node.h"
 #include "../include/Heap.h"
 
 int main() {
