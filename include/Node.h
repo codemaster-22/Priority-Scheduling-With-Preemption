@@ -1,3 +1,6 @@
+#ifndef NODE_H 
+#define NODE_H
+
 #include <cmath>
 #include <cstdio>
 #include <vector>
@@ -13,3 +16,5 @@ public:
      int bursttime;
      Node(int a,int b,int c,int d);
 };
+
+#endif
