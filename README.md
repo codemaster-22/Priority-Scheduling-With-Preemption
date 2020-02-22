@@ -1,7 +1,7 @@
 # Priority-Scheduling-With-Preemption
 - cpu scheduling
-- Problem Statement
--At any given point in time, there are a number processes waiting in the ready queue to be executed by the
+- Problem Statement :
+At any given point in time, there are a number processes waiting in the ready queue to be executed by the
 processor (CPU) in a computer. The operating system (OS) schedules the processes, i.e., chooses one of the
 processes from the pool, and assigns it to the CPU to be executed. Only one process can be in running state
 at a time in a single processor system. Consider a case in which the OS uses, for process scheduling, the
@@ -24,10 +24,10 @@ with the same priority have the same arrival time.
 - Priority of a process >= 0
 - Execution start time = 0
 - Burst time <= 50
-- Input Format
+- Input Format :
 - N
 - Followed by N number of <Process_No, Process_Priority, Arrival_Time, Burst_Time>
-- Output Format
+- Output Format :
 - Print the heap in preorder traversal every time an item is deleted from the heap. Do not print
 anything if the heap is empty
 - Print the process numbers in the order of their execution
